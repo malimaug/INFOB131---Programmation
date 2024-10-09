@@ -30,10 +30,5 @@ def stamp_amount(normalized: bool, weight: float):
         else:
             return "weight exceeded allowed amount"
 
-    elif normalized:
-        return 1
-
     else:
-        return "error: has to be either normalized or not"
-
-    
+        return 1
