@@ -10,7 +10,7 @@ def is_prime_number(number: int):
     return True
 
 
-amount_of_primes = 1000000
+amount_of_primes = 100000
 
 
 
